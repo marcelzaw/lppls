@@ -229,6 +229,8 @@ class LPPLS(object):
         ax1.legend(loc=2)
 
         plt.xticks(rotation=45)
+        plt.show()
+        plt.pause(0)
         # ax1.xaxis.set_major_formatter(months)
         # # rotates and right aligns the x labels, and moves the bottom of the
         # # axes up to make room for them
