@@ -14,6 +14,7 @@ def nasdaq_dotcom():
     # stream.read()
     stream = pkg_resources.resource_stream(__name__, 'data/nasdaq_dotcom.csv')
     return pd.read_csv(stream, encoding='utf-8')
+
 def HSI():
     # This is a stream-like object. If you want the actual info, call
     # stream.read()
